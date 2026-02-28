@@ -1,0 +1,19 @@
+[gd_scene format=3 uid="uid://b36mxifllnxc0"]
+
+[ext_resource type="PackedScene" uid="uid://be5h8fu0xbxv6" path="res://player.tscn" id="1_f3sb7"]
+[ext_resource type="Script" uid="uid://b5pym5ktwt57g" path="res://world.gd" id="1_fj7yv"]
+
+[node name="World" type="Node2D" unique_id=601611481]
+script = ExtResource("1_fj7yv")
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=1700347589]
+custom_minimum_size = Vector2(3000, 3000)
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.039215688, 0, 0.0627451, 1)
+
+[node name="Player" parent="." unique_id=113791618 instance=ExtResource("1_f3sb7")]
+position = Vector2(1, 2)

@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://be5h8fu0xbxv6"]
+
+[ext_resource type="Script" uid="uid://bx4m3lh4o7d1g" path="res://player.gd" id="1_4flbx"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_sh265"]
+radius = 16.0
+
+[node name="Player" type="CharacterBody2D" unique_id=113791618]
+script = ExtResource("1_4flbx")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1823778968]
+shape = SubResource("CircleShape2D_sh265")
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=1524324412]
+zoom = Vector2(0.7, 0.7)
+position_smoothing_enabled = true
+position_smoothing_speed = 4.0
