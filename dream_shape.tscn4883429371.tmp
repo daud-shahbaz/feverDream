@@ -1,6 +1,0 @@
-[gd_scene format=3 uid="uid://cmod5bdkpfx7l"]
-
-[ext_resource type="Script" uid="uid://b7oley6juq72f" path="res://dream_shape.gd" id="1_fmkm3"]
-
-[node name="DreamShape" type="Node2D" unique_id=405282721]
-script = ExtResource("1_fmkm3")

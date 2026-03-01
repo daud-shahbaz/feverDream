@@ -1,6 +1,6 @@
-[gd_scene format=3 uid="uid://d0p8naf6yfbn2"]
+[gd_scene format=3 uid="uid://brxirm8ylj6ai"]
 
-[ext_resource type="Script" uid="uid://cbgfbs8rdwcpp" path="res://goal_portal.gd" id="1_dyc57"]
+[ext_resource type="Script" path="res://goal_portal.gd" id="1_dyc57"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_5gf48"]
 radius = 55.0

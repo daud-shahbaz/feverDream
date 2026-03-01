@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bvn636nwgwgms"
+path="res://.godot/imported/Aetheric - Echoes of the Fields (freetouse.com).mp3-71f932cd2fa4dce16adaf59923918e37.mp3str"
+
+[deps]
+
+source_file="res://Aetheric - Echoes of the Fields (freetouse.com).mp3"
+dest_files=["res://.godot/imported/Aetheric - Echoes of the Fields (freetouse.com).mp3-71f932cd2fa4dce16adaf59923918e37.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

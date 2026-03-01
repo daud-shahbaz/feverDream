@@ -1,0 +1,25 @@
+[gd_scene load_steps=6 format=3 uid="uid://bmj8qcrnf3"]
+
+[ext_resource type="Script" path="res://scripts/main.gd" id="1_main"]
+[ext_resource type="PackedScene" uid="uid://dt5n4b7xhvpa1" path="res://scenes/player.tscn" id="2_player"]
+[ext_resource type="Script" path="res://scripts/ocean.gd" id="3_ocean"]
+[ext_resource type="Script" path="res://scripts/particles.gd" id="4_particles"]
+[ext_resource type="Script" path="res://scripts/gulls.gd" id="5_gulls"]
+
+[node name="Main" type="Node2D"]
+script = ExtResource("1_main")
+
+[node name="OceanBackground" type="Node2D" parent="."]
+script = ExtResource("3_ocean")
+
+[node name="AmbientParticles" type="Node2D" parent="."]
+script = ExtResource("4_particles")
+
+[node name="Player" parent="." instance=ExtResource("2_player")]
+position = Vector2(0, 0)
+
+[node name="Seagulls" type="Node2D" parent="."]
+script = ExtResource("5_gulls")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+zoom = Vector2(1.5, 1.5)
