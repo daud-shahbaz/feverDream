@@ -53,3 +53,6 @@ func _draw() -> void:
 
 	var glow_col = Color.from_hsv(hue, 0.6, 1.0, 0.15)
 	draw_circle(Vector2.ZERO, body_radius + 12.0, glow_col)
+
+func _ready() -> void:
+	add_to_group("player")

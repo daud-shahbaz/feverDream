@@ -1,0 +1,12 @@
+[gd_scene format=3 uid="uid://d0p8naf6yfbn2"]
+
+[ext_resource type="Script" uid="uid://cbgfbs8rdwcpp" path="res://goal_portal.gd" id="1_dyc57"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_5gf48"]
+radius = 55.0
+
+[node name="GoalPortal" type="Area2D" unique_id=400624799]
+script = ExtResource("1_dyc57")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1774831080]
+shape = SubResource("CircleShape2D_5gf48")
